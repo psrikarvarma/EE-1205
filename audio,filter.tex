@@ -48,7 +48,7 @@
 \bibliographystyle{IEEEtran}
 \vspace{3cm}
 \title{Audio Filter}
-\author{EE23BTECH11015 - DHANUSH V NAYAK$^{*}$% <-this % stops a space
+\author{EE23BTECH11215 - Penmetsa Srikar Varma$^{*}$% <-this % stops a space
 }
 \maketitle
 \newpage
@@ -63,12 +63,12 @@
 \label{input_sound}
 \item The sound file used for this code is obtained from the below link
 \begin{lstlisting}
-$https://github.com/dhanushnayakh03/EE1205/blob/main/Audio_%20Filter/codes/Dhanush-Singing.wav
+$https://github.com/psrikarvarma/EE-1205/blob/main/codes/singing%2Csrikar.wav
 \end{lstlisting}
 \item 
 \label{Python code}
 A Python Code is written to achieve Audio Filtering 
-\lstinputlisting{./codes/audio_filter.py}\label{prob:audio_filter_problem}
+\lstinputlisting{./codes/1,1.py}\label{prob:audio_filter_problem}
 
 \item 
 \label{Visualization}
@@ -108,18 +108,18 @@ y(n) = 0, n < 0 \label{prob:2.2}
 \end{multline}
 Sketch $y(n)$.\\
 Solve\\
-\solution  The C code calculates $y\brak{n}$ and generates values in a text file.
+\solution  The C code calculates $y\brak{n}$ and generates values in a text file '$yn.txt$'.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/2.2.c
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,2.c
 \end{lstlisting} 
 The following code plots \eqref{prob:2.1} and \eqref{prob:2.2}
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/2.2.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,3.py
 \end{lstlisting}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\columnwidth]{figs/Plot_xn_yn.png}
+	\includegraphics[width=\columnwidth]{figs/yn.png}
 	\caption{Plot of $x(n)$ and $y(n)$}
 	\label{fig:xnyn}
 \end{figure}
@@ -229,7 +229,7 @@ known as the {\em Discret Time Fourier Transform} (DTFT) of $x(n)$.
 \\
 \solution The following code plots the magnitude of transfer function.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/3.5.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,4.py
 \end{lstlisting}
 Substituting $z = e^{j \omega}$ in \eqref{eq:freq_resp}, we get
 \begin{align}
@@ -246,7 +246,7 @@ Therefore its fundamental period is $2\pi$ , which verifies that DTFT of a signa
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\columnwidth]{figs/H(z)_3.5.png}
+\includegraphics[width=\columnwidth]{figs/1,4.png}
 \caption{$\abs{H\brak{e^{j\omega}}}$}
 \label{fig:H(z)_3.5}
 \end{figure}
@@ -275,11 +275,11 @@ using \eqref{eq:anun} and \eqref{eq:z_trans_shift}.
 \\
 \solution The following code plots $h\brak{n}$ 
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/4.2.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,5.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
-\includegraphics[width=\columnwidth]{figs/hn}
+\includegraphics[width=\columnwidth]{figs/1,5.png}
 \caption{$h(n)$ as the inverse of $H(z)$}
 \label{fig:hn}
 \end{figure}
@@ -318,11 +318,11 @@ The following code plots Fig. \ref{fig:hndef}. Note that this is the same as Fig
 \ref{fig:hn}. 
 
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/4.2.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,6.py
 \end{lstlisting}
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=\columnwidth]{figs/hndef}
+\includegraphics[width=\columnwidth]{figs/1,6.png}
 \caption{$h(n)$ from the definition is same as \figref{fig:hn}}
 \label{fig:hndef}
 \end{figure}
@@ -343,11 +343,11 @@ $y(n)$ in  Fig.
 \ref{fig:xnyn}. 
 %
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/4.5.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,7.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
-\includegraphics[width=\columnwidth]{figs/y_by_conv.png}
+\includegraphics[width=\columnwidth]{figs/1,7.png}
 \caption{$y(n)$ from the definition of convolution}
 \label{fig:ynconv}
 \end{figure}
@@ -388,18 +388,18 @@ y\brak{n}={\frac {1}{N}}\sum _{k=0}^{N-1}Y\brak{k}\cdot e^{\j 2\pi kn/N},\quad n
 
 \solution The above three questions are solved using the code below.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/5_sol.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,8.py
 \end{lstlisting}
 
 \item Repeat the previous exercise by computing $X(k), H(k)$ and $y(n)$ through FFT and IFFT.
 \solution The solution of this question can be found in the code below.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/5.4.py   
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,9.py  
 \end{lstlisting}
 This code verifies the result by plotting the obtained result with the result obtained by IDFT.
 \begin{figure}[H]
 \centering
-\includegraphics[width=\columnwidth]{figs/yn_verf_5.4.png}
+\includegraphics[width=\columnwidth]{figs/1,9.png}
 \caption{$y(n)$ obtained from IDFT and IFFT is plotted and verified}
 \label{fig:yn_verf_5.4}
 \end{figure}
@@ -441,11 +441,11 @@ where the $\odot$ represents the Hadamard product which performs element-wise mu
 
 The below code computes $y\brak{n}$ by DFT Matrix and then plots it.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/5.5.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,10.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
-\includegraphics[width=\columnwidth]{figs/yn_DFT_matrix.png}
+\includegraphics[width=\columnwidth]{figs/1,10.png}
 \caption{$y(n)$ obtained from DFT Matrix}
 \label{fig:yn_DFT_matrix}
 \end{figure}
@@ -473,18 +473,8 @@ where the input signal is $x(n)$ and the output signal is $y(n)$ with initial va
 
 \solution The below code gives the output of an Audio Filter without using the built in function signal.lfilter.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6.1.py 
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,11.py
 \end{lstlisting}
-\begin{figure}[H]
-\centering
-\includegraphics[width=\columnwidth]{figs/Audio_Filter_verf.png}
-\caption{Both the outputs using and without using function overlap}
-\label{fig:6.1}
-\end{figure}
-
-
-
-
 
 \item Repeat all the exercises in the previous sections for the above $a$ and $b$.\\
 \solution The code in \ref{prob:audio_filter_problem} generates the values of $a$ and $b$  which can be used to generate a difference equation.\\
@@ -527,9 +517,9 @@ h(n) &= \sum_{i}r(i)[p(i)]^nu(n) + \sum_{j}k(j)\delta(n - j)
 \end{align}
 The below code computes the values of $r\brak{i},p\brak{i} , k\brak{i}$ and plots $h\brak{n}$
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6.2.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,12.py
 \end{lstlisting}
-\input{tables/audio_filter_tab}
+\input{tables/table.tex}
 
 \textbf{Stability of h(n)}:\\
 According to \eqref{eq:stabilty_condn}
@@ -540,11 +530,11 @@ H(1)&= \sum_{n = 0}^{\infty}h(n)  = \frac{\sum_{k = 0}^{N}b(k)}{\sum_{k = 0}^{M}
 As both $a\brak{k}$ and $b\brak{k}$ are finite length sequences they converge.\\
 The below code plots Filter frequency response
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6_filter_response.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,13.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\columnwidth]{figs/Filter_Response.png}
+\includegraphics[width=1\columnwidth]{figs/1,13.png}
 \caption{Frequency Response of Audio Filter}
 \label{fig:H(w)_6}
 \end{figure}
@@ -553,11 +543,11 @@ The below code plots the Butterworth Filter in analog domain by using bilinear t
     z=\frac{1+sT/2}{1-sT/2}
 \end{align}
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/analog_filt.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,14.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\columnwidth]{figs/Butterworth_analog.png}
+\includegraphics[width=1\columnwidth]{figs/1,14.png}
 \caption{Butterworth Filter Frequency response in analog domain}
 \label{fig:H(w)_6}
 \end{figure}
@@ -566,18 +556,18 @@ https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/analog
 
 The below code plots the Pole-Zero Plot of the frequency response.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6.2_pole-zero.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,15.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\columnwidth]{figs/Pole_Zero_Plt.png}
+\includegraphics[width=1\columnwidth]{figs/1,15.png}
 \caption{There are complex poles. So $h\brak{n}$ should be damped sinusoid.}
 \label{fig:pole_zero_6.2}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\columnwidth]{figs/h(n)_6.2.png}
+\includegraphics[width=\columnwidth]{figs/1,12.png}
 \caption{h(n) of Audio Filter.It is a damped sinusoid.}
 \label{fig:6.2_hn}
 \end{figure}
@@ -587,7 +577,7 @@ https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6.2_po
 
 \solution The below C code computes FFT of a given sequence.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/fft.c
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/fft.c
 \end{lstlisting}
 The C function involved in computing the FFT is called in the below python code and the result is computed.\\
 
@@ -597,7 +587,7 @@ gcc -shared -o fft.so -fPIC fft.c
 \end{lstlisting}
 
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/fft_python.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/fft.py
 \end{lstlisting}
 
 \item Find the time complexities of computing y(n)
@@ -605,15 +595,15 @@ using FFT/IFFT and convolution and Compare.\\
 \solution  The time required to compute y(n) using these two methods is calculated and the data is stored in a text file using the below C code.
 
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6.4_time.c
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,16.c
 \end{lstlisting}
 The below python code extracts the data from these text files and plots Time vs $n$ for comparison.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6.4_plot.py
+https://github.com/psrikarvarma/EE-1205/blob/main/codes/1,17.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\columnwidth]{figs/Time Complexity Comparision.png}
+\includegraphics[width=1\columnwidth]{figs/1,17.png}
 \caption{The Complexity of FFT+IFFT method is $ O(nlogn)$ where as by convolution is $O(n^2)$}
 \label{fig:time_complexity}
 \end{figure}
