@@ -15,8 +15,12 @@ def myfiltfilt(b, a, input_signal):
 
 #read .wav file 
 input_signal,fs = sf.read('singing,srikar.wav') 
+
+# Ensure input signal is long enough for padding
+pad_len = 15
+if len(input_signal) < pad_len:
+    input_signal = np.pad(input_signal, (0, pad_len - len(input_signal)), 'constant')
 print(len(input_signal))
-np.savetxt("in.txt", input_signal)
 
 #sampling frequency of Input signal
 sampl_freq=fs
@@ -45,3 +49,4 @@ plt.title("Verification of outputs of Audio Filter")
 plt.grid()
 plt.legend()
 plt.savefig("../figs/1,11.png")
+plt.show()
