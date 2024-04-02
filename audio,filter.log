@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.19)  1 APR 2024 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.19)  2 APR 2024 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1369,26 +1369,6 @@ File: figs/yn.png Graphic file (type png)
 Package pdftex.def Info: figs/yn.png  used on input line 122.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-! Undefined control sequence.
-l.201 \delta(n) \system
-                       {Z} 1
-? 
-! Undefined control sequence.
-l.214 a^nu(n) \system
-                     {Z} \frac{1}{1-az^{-1}} \quad \abs{z} > \abs{a}
-? 
-! Undefined control sequence.
-<argument>  a^nu(n) &\system 
-                             {Z} \sum _{n = 0}^{\infty }\brak {az^{-1}}^n \\...
-l.220 \end{align}
-                 
-? 
-! Undefined control sequence.
-<argument>  a^nu(n) &\system 
-                             {Z} \sum _{n = 0}^{\infty }\brak {az^{-1}}^n \\...
-l.220 \end{align}
-                 
-? 
 
 LaTeX Warning: Command \j invalid in math mode on input line 225.
 
@@ -1407,17 +1387,12 @@ File: figs/1,4.png Graphic file (type png)
 <use figs/1,4.png>
 Package pdftex.def Info: figs/1,4.png  used on input line 249.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-! Undefined control sequence.
-l.262 h(n) \system
-                  {Z} H(z)
-? 
 <figs/1,5.png, id=145, 462.528pt x 346.896pt>
 File: figs/1,5.png Graphic file (type png)
 <use figs/1,5.png>
 Package pdftex.def Info: figs/1,5.png  used on input line 282.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-[3 <./figs/1,4.png> <./figs/1,5.png>]
+ [3 <./figs/1,4.png> <./figs/1,5.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 310--316
 
  []
@@ -1495,32 +1470,8 @@ Overfull \hbox (7.96732pt too wide) detected at line 503
 []
  []
 
-! Undefined control sequence.
-<argument>  a^{n}u\brak {n} \system 
-                                    {Z} \frac {1}{1-az^{-1}} \label {eq:res-...
-l.518 \end{align}
-                 
-? 
-! Undefined control sequence.
-<argument> ...res-1}\\ \delta \brak {n-k} \system 
-                                                  {Z} z^{-k}\label {eq:res-2} 
-l.518 \end{align}
-                 
-? 
-! Undefined control sequence.
-<argument>  a^{n}u\brak {n} \system 
-                                    {Z} \frac {1}{1-az^{-1}} \label {eq:res-...
-l.518 \end{align}
-                 
-? 
-! Undefined control sequence.
-<argument> ...res-1}\\ \delta \brak {n-k} \system 
-                                                  {Z} z^{-k}\label {eq:res-2} 
-l.518 \end{align}
-                 
-? 
 
-Underfull \hbox (badness 2460) in paragraph at lines 523--525
+Underfull \hbox (badness 2460) in paragraph at lines 525--527
 \OT1/txr/m/n/12 The be-low code com-putes the val-ues of
  []
 
@@ -1533,31 +1484,31 @@ Overfull \hbox (11.15599pt too wide) in paragraph at lines 5--14
 <figs/1,13.png, id=253, 462.528pt x 346.896pt>
 File: figs/1,13.png Graphic file (type png)
 <use figs/1,13.png>
-Package pdftex.def Info: figs/1,13.png  used on input line 543.
+Package pdftex.def Info: figs/1,13.png  used on input line 545.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
  [6 <./figs/1,11.png>]
-<figs/1,14.png, id=281, 462.528pt x 346.896pt>
+<figs/1,14.png, id=279, 462.528pt x 346.896pt>
 File: figs/1,14.png Graphic file (type png)
 <use figs/1,14.png>
-Package pdftex.def Info: figs/1,14.png  used on input line 556.
+Package pdftex.def Info: figs/1,14.png  used on input line 558.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-<figs/1,15.png, id=282, 722.7pt x 578.16pt>
+<figs/1,15.png, id=280, 722.7pt x 578.16pt>
 File: figs/1,15.png Graphic file (type png)
 <use figs/1,15.png>
-Package pdftex.def Info: figs/1,15.png  used on input line 569.
+Package pdftex.def Info: figs/1,15.png  used on input line 571.
 (pdftex.def)             Requested size: 252.0pt x 201.60033pt.
-<figs/1,12.png, id=283, 462.528pt x 346.896pt>
+<figs/1,12.png, id=281, 462.528pt x 346.896pt>
 File: figs/1,12.png Graphic file (type png)
 <use figs/1,12.png>
-Package pdftex.def Info: figs/1,12.png  used on input line 576.
+Package pdftex.def Info: figs/1,12.png  used on input line 578.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
 
  []
 
@@ -1565,7 +1516,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 588--589
 <figs/1,17.png, id=306, 462.528pt x 346.896pt>
 File: figs/1,17.png Graphic file (type png)
 <use figs/1,17.png>
-Package pdftex.def Info: figs/1,17.png  used on input line 612.
+Package pdftex.def Info: figs/1,17.png  used on input line 614.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
 [8
@@ -1584,7 +1535,7 @@ Here is how much of TeX's memory you used:
  61041 multiletter control sequences out of 15000+600000
  551005 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 115i,17n,118p,432b,1901s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,18n,118p,432b,1901s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
@@ -1594,7 +1545,7 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on audio,filter.pdf (8 pages, 390376 bytes).
+Output written on audio,filter.pdf (8 pages, 390525 bytes).
 PDF statistics:
  407 PDF objects out of 1000 (max. 8388607)
  345 compressed objects within 4 object streams

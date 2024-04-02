@@ -198,7 +198,7 @@ U(z) = \frac{1}{1-z^{-1}}, \quad \abs{z} > 1
 \end{equation}
 \solution It is easy to show that
 \begin{equation}
-\delta(n) \system{Z} 1
+\delta(n) \xleftrightarrow[]{\mathcal{Z}} 1
 \end{equation}
 and from \eqref{eq:unit_step},
 \begin{align}
@@ -211,11 +211,11 @@ using the formula for the sum of an infinite geometric progression.
 \item Show that 
 \begin{equation}
 \label{eq:anun}
-a^nu(n) \system{Z} \frac{1}{1-az^{-1}} \quad \abs{z} > \abs{a}
+a^nu(n) \xleftrightarrow[]{\mathcal{Z}} \frac{1}{1-az^{-1}} \quad \abs{z} > \abs{a}
 \end{equation}
 \solution 
 \begin{align}
-	a^nu(n) &\system{Z} \sum_{n = 0}^{\infty}\brak{az^{-1}}^n \\
+a^nu(n) \xleftrightarrow[]{\mathcal{Z}} \sum_{n = 0}^{\infty}\brak{az^{-1}}^n \\
 			&= \frac{1}{1-az^{-1}} \quad \abs{z} > \abs{a}
 \end{align}
 %
@@ -259,7 +259,7 @@ Find an expression for $h(n)$ using $H(z)$, given that
 %in Problem \ref{eq:ztransab} and \eqref{eq:anun}, given that
 \begin{equation}
 \label{eq:impulse_resp}
-h(n) \system{Z} H(z)
+h(n) \xleftrightarrow[]{\mathcal{Z}} H(z) 
 \end{equation}
 and there is a one to one relationship between $h(n)$ and $H(z)$. $h(n)$ is known as the {\em impulse response} of the
 system defined by \eqref{prob:2.2}.
@@ -513,8 +513,10 @@ Partial fraction on \eqref{eq:trans-func} can be generalised as:
 \end{align}
 Now,
 \begin{align}
-    a^{n}u\brak{n} \system{Z} \frac{1}{1-az^{-1}} \label{eq:res-1}\\
-    \delta\brak{n-k} \system{Z} z^{-k}\label{eq:res-2}
+a^{n}u\brak{n} \xleftrightarrow[]{\mathcal{Z}} \frac{1}{1-az^{-1}}
+     \label{eq:res-1}\\
+    \delta\brak{n-k} \xleftrightarrow[]{\mathcal{Z}} z^{-k}
+     \label{eq:res-2}
 \end{align}
 Taking inverse z transform of \eqref{eq:trans-func-pfe} by using \eqref{eq:res-1} and \eqref{eq:res-2}
 \begin{align}
